@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2017, 7:51:51 PM
+    Author     : 00140221
+*/
+ #cabecera{      
+    /*Aplicando tipo, alineacion y tamaño de letra a la cabecera*/
+    font-family: Forte;
+    font-size: 40px;
+    text-align: center;
+}
+
+ul li {  
+    /*Agregando colores a la barra de menu*/
+    list-style-type: none;
+    background: #00FF40;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 7px;
+    color:#00FF40;
+
+}
+
+#Menu  {
+/*Centrando la barra de menu*/
+    text-align: center;
+    font-family: magnets;
+    font-size: 26px;
+}
+
+#cuerpo {
+    text-align: center;
+    font-family: Aharoni;
+    font-size: 20px;
+
+}
+#pie  {
+
+    background: #00FF40;
+    text-align: center;
+    font-family: Aharoni;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 8px;
+
+}      
+
+a:hover { 
+    color: white;
+    font-size: 21px;
+
+}
+
+a{
+    text-decoration: none;
+    background: #013ADF;
+}
+
+form{
+    /*centrando el formulario y poniendo borde*/
+    margin: 0 auto;
+    width: 800px;
+    padding: 1em;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background: white;
+}
+
+form div{
+    margin-top: 1em;
+}
+
+a:link {
+    color:#F8FBEF
+}
+
+a:visited {
+    color: #F8FBEF
+}
+a:active {
+    color:#F8FBEF
+}
+
+label{
+
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+input, textarea { 
+    font: 1em Arial;
+    width:200px;
+}
+
+input:focus, textarea:focus{
+    border-color: red;
+}
+
+textarea{
+    vertical-align: top;
+}
+
+h1{
+    text-align: center;
+}
+
+#fondo{
+    background: #00FF40;
